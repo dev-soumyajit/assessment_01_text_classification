@@ -38,7 +38,7 @@ cp .env.example .env
 Edit `.env` and add your Groq API key:
 ```
 PORT=3000
-GROQ_API_KEY=your_groq_api_key_here
+GROQ_API_KEY=groq_api_key
 ```
 
 4. Start the server
@@ -114,6 +114,3 @@ curl -X POST http://localhost:3000/api/classify \
 ```
 or use postman to test the api
 ```
-
-
-
