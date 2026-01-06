@@ -115,4 +115,21 @@ curl -X POST http://localhost:3000/api/classify \
 or use postman to test the api
 
 ```
-          Thank You !!
+
+
+## Getting Your Groq API Key
+
+1. Visit https://console.groq.com
+2. Sign up or log in
+3. Navigate to API Keys section
+4. Create a new API key
+5. Copy the key and add it to your `.env` file
+
+## Notes
+
+- Ensure your Groq API key is valid
+- Response times typically range from 500ms to 2000ms
+- All inputs are validated and sanitized
+- The service is stateless and can handle concurrent requests
+- Error handling ensures graceful degradation
+- Using llama-3.3-70b-versatile model for high-quality email generation
