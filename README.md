@@ -132,4 +132,4 @@ or use postman to test the api
 - All inputs are validated and sanitized
 - The service is stateless and can handle concurrent requests
 - Error handling ensures graceful degradation
-- Using llama-3.3-70b-versatile model for high-quality email generation
+- Using llama-3.3-70b-versatile model for high-quality response
